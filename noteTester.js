@@ -30,7 +30,7 @@ var noteTester = {
         }
         if (!this.allowEverything) {
             // The complementary note cannot be pressed at the same time 
-            this.pullKey(this.findComplementary(note));
+            this.pullNote(this.findComplementary(note));
         }
         noteNat = note.substr(0, 2);
         if (note.indexOf('b') > -1) {
@@ -51,7 +51,7 @@ var noteTester = {
             $('#noteTesterScore .note.' + noteNat).show();
         }
     },
-    pullKey: function (note) {
+    pullNote: function (note) {
         'use strict';
         var cssClass,
             noteNat = note.substr(0, 2),
