@@ -1,0 +1,66 @@
+<!--This file shows the basic elements to use the noteTester.js-->
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="noteTester.css">
+<html>
+<head>
+    <title>Note Tester</title>
+</head>
+<body>
+<div class="noteTesterWrapper">
+    <div id="noteTester">
+        <div id="noteTesterScore">
+            <div class="note C4" style="display:none"></div>
+            <div class="note D4" style="display:none"></div>
+            <div class="note E4" style="display:none"></div>
+            <div class="note F4" style="display:none"></div>
+            <div class="note G4" style="display:none"></div>
+            <div class="note A4" style="display:none"></div>
+            <div class="note B4" style="display:none"></div>
+            <div class="note C5" style="display:none"></div>
+            <div class="note D5" style="display:none"></div>
+            <div class="note E5" style="display:none"></div>
+            <div class="note F5" style="display:none"></div>
+            <div class="note G5" style="display:none"></div>
+            <div class="note A5" style="display:none"></div>
+            <div class="note B5" style="display:none"></div>
+        </div>
+        <div id="noteTesterPiano">
+            <div class="note C4" data-note="C4"></div>
+            <div class="note C4Sharp" data-note="C4#"></div>
+            <div class="note D4" data-note="D4"></div>
+            <div class="note D4Sharp" data-note="D4#"></div>
+            <div class="note E4" data-note="E4"></div>
+            <div class="note F4" data-note="F4"></div>
+            <div class="note F4Sharp" data-note="F4#"></div>
+            <div class="note G4" data-note="G4"></div>
+            <div class="note G4Sharp" data-note="G4#"></div>
+            <div class="note A4" data-note="A4"></div>
+            <div class="note A4Sharp" data-note="A4#"></div>
+            <div class="note B4" data-note="B4"></div>
+            <div class="note C5" data-note="C5"></div>
+            <div class="note C5Sharp" data-note="C5#"></div>
+            <div class="note D5" data-note="D5"></div>
+            <div class="note D5Sharp" data-note="D5#"></div>
+            <div class="note E5" data-note="E5"></div>
+            <div class="note F5" data-note="F5"></div>
+            <div class="note F5Sharp" data-note="F5#"></div>
+            <div class="note G5" data-note="G5"></div>
+            <div class="note G5Sharp" data-note="G5#"></div>
+            <div class="note A5" data-note="A5"></div>
+            <div class="note A5Sharp" data-note="A5#"></div>
+            <div class="note B5" data-note="B5"></div>
+        </div>
+        <div class="pianoControllers">
+            <div onclick="noteTester.resetNotes()" id="noteTesterFeedback"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="vendor/jquery-1.11.1.min.js"></script>
+<script src="noteTester.js"></script>
+<script>
+    $(window).ready(function (){
+        noteTester.addListeners();
+    });
+</script>
