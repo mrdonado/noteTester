@@ -8,6 +8,8 @@ The notes can be reset by clicking on the black display above the keyboard. It i
 Here are the main examples for using the javascript component:
 
 If noteTester.useSharps is true, sharp notes will be displayed. Otherwise, flat notes will be used:
+
+```javascript
 noteTester.useSharps = true; // Sharps are used.
 
 noteTester.addListeners(); // Listens when the user presses a key, to mark it as pressed and display it on the score.
@@ -21,6 +23,7 @@ noteTester.pushNote('C5'); // Will push the C5 note.
 noteTester.pullNote('C5'); // Will pull the C5 note.
 
 noteTester.currentNotes; // It stores an array with the currently pressed notes.
+```
 
 The recognized notes are:
 
@@ -30,3 +33,6 @@ The recognized notes are:
 'Cb5', 'Db5', 'Eb5', 'Fb5', 'Gb5', 'Ab5', 'Bb5'
 
 You can test it simply by downloading/cloning the repository and opening noteTester.html on your browser.
+
+## License
+noteTester.js is licensed under MIT License.
