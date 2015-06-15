@@ -99,12 +99,11 @@ Eventually, you will need to modify the css definition of the noteWrapper compon
 
 ```css
 .noteTesterWrapper{
-    width: 460px;
-    height: 134px;
-    margin-left: 100px;
-    position:relative;
-    background-repeat: no-repeat;
-
+  width: 75%;
+  padding-top: 22%;
+  margin-left: 5%;
+  position: relative;
+  background-repeat: no-repeat;
 }
 ```
 
