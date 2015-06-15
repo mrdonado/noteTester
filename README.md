@@ -5,6 +5,8 @@ It consists of a responsive piano keyboard and a score that displays the pressed
 
 The notes can be reset by clicking on the black display above the keyboard. It is all controlled by a JS object called noteTester.
 
+Try it out on the demo page: http://fjrd84.github.io/noteTester/ 
+
 Here are the main examples for using the javascript component:
 
 If noteTester.useSharps is true, sharp notes will be displayed. Otherwise, flat notes will be used:
