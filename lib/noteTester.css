@@ -1,7 +1,7 @@
 .noteTesterWrapper{
-    width: 460px;
-    height: 134px;
-    margin-left: 100px;
+    width: 75%;
+    padding-top: 22%;
+    margin-left: 5%;
     position:relative;
     background-repeat: no-repeat;
 }
