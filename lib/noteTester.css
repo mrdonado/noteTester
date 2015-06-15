@@ -1,0 +1,310 @@
+.noteTesterWrapper{
+    width: 460px;
+    height: 134px;
+    margin-left: 100px;
+    position:relative;
+    background-repeat: no-repeat;
+}
+
+.pianoControllers{
+    width: 61.7%;
+    height: 22%;
+    left: 38%;
+    position: absolute;
+    /* top: 11%; */
+    /* border: 1px solid white; */
+}
+
+#noteTester{
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.feedbackNote{
+    color: white;
+    font-size: 103%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    line-height: 150%;
+}
+
+#noteTesterPiano{
+    position: absolute;
+    background-color: black;
+    width: 61.4%;
+    height: 74.2%;
+    bottom: 0%;
+    left: 38%;
+}
+
+#noteTesterPiano .note{
+    background-color: #ffdbaa;
+    width: 6.536%;
+    height: 100%;
+    position: absolute;
+    cursor: pointer;
+}
+
+#noteTesterPiano .note.C4Sharp, 
+#noteTesterPiano .note.D4Sharp, 
+#noteTesterPiano .note.F4Sharp, 
+#noteTesterPiano .note.G4Sharp, 
+#noteTesterPiano .note.A4Sharp, 
+#noteTesterPiano .note.C5Sharp, 
+#noteTesterPiano .note.D5Sharp, 
+#noteTesterPiano .note.F5Sharp, 
+#noteTesterPiano .note.G5Sharp, 
+#noteTesterPiano .note.A5Sharp{
+    height: 64.348%;
+    width: 3.921%;
+    z-index: 2;
+    background-color: black;
+}
+
+#noteTesterPiano .note.C4Sharp{
+    margin-left: 4.575%;
+}
+#noteTesterPiano .note.D4Sharp{
+    margin-left: 12.091%;
+}
+#noteTesterPiano .note.F4Sharp{
+    margin-left: 26.47%;
+}
+#noteTesterPiano .note.G4Sharp{
+    margin-left: 33.66%;
+}
+#noteTesterPiano .note.A4Sharp{
+    margin-left: 40.85%;
+}
+#noteTesterPiano .note.C5Sharp{
+    margin-left: 55.229%;
+}
+#noteTesterPiano .note.D5Sharp{
+    margin-left: 62.418%;
+}
+#noteTesterPiano .note.F5Sharp{
+    margin-left: 76.797%;
+}
+#noteTesterPiano .note.G5Sharp{
+    margin-left: 83.989%;
+} 
+#noteTesterPiano .note.A5Sharp{
+    margin-left: 91.176%;
+}
+
+#noteTesterPiano .note.D4{
+    margin-left: 7.189%;
+}
+
+#noteTesterPiano .note.E4{
+    margin-left: 14.379%;
+}
+
+#noteTesterPiano .note.F4{
+    margin-left: 21.569%;
+}
+
+#noteTesterPiano .note.G4{
+    margin-left: 28.758%;
+}
+
+#noteTesterPiano .note.A4{
+    margin-left: 35.948%;
+}
+
+#noteTesterPiano .note.B4{
+    margin-left: 43.137%;
+}
+
+#noteTesterPiano .note.C5{
+    margin-left: 50.327%;
+}
+
+#noteTesterPiano .note.D5{
+    margin-left: 57.516%;
+}
+
+#noteTesterPiano .note.E5{
+    margin-left: 64.706%;
+}
+
+#noteTesterPiano .note.F5{
+    margin-left: 71.895%;
+}
+
+#noteTesterPiano .note.G5{
+    margin-left: 78.985%;
+}
+
+#noteTesterPiano .note.A5{
+    margin-left: 86.275%;
+}
+
+#noteTesterPiano .note.B5{
+    margin-left: 93.464%;
+}
+
+#noteTesterPiano .note:hover{
+    background-color: rgb(255, 236, 211);
+}
+
+#noteTesterFeedback{
+    position: absolute;
+    width: 16.9%;
+    height: 100%;
+    left: 41%;
+    background-color: black;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#noteTesterScore{
+    /* left: 2%; */
+    position: absolute;
+    width: 32.689%;
+    padding-top: 28.08%;
+    bottom: 0;
+    background-color: rgb(255, 219, 170);
+    background-image: url('img/noteTesterScoreBg.svg');
+    background-size: 100%;
+}
+
+#noteTesterPiano .note.selected {
+    background-color: #805215;
+    border: 1px solid black;
+}
+
+#resetNotes{
+    position: absolute;
+    width: 35%;
+    height: 96%;
+    left: 0;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+}
+
+#sendResults{
+    position: absolute;
+    width: 35%;
+    height: 96%;
+    right: 0;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+}
+
+#noteTesterScore .note {
+width: 22.857%;
+background-image: url('img/natural.svg');
+height: 19.3333333333%;
+background-size: 100%;
+position: absolute;
+background-repeat: no-repeat;
+margin-left: 61.714%;
+}
+
+#noteTesterScore .note.C4, #noteTesterScore .note.A5{
+    background-image: url('img/naturalCrossed.svg');
+}
+
+#noteTesterScore .note.sharp{
+    background-image: url('img/sharp.svg');
+}
+
+#noteTesterScore .note.flat{
+    background-image: url('img/flat.svg');
+}
+
+#noteTesterScore .note.doubleSharp{
+    background-image: url('img/doubleSharp.svg');
+}
+
+#noteTesterScore .note.doubleFlat{
+    background-image: url('img/doubleFlat.svg');
+}
+
+#noteTesterScore .note.C4.sharp{
+    background-image: url('img/sharpCrossed.svg');
+}
+
+#noteTesterScore .note.C4.flat{
+    background-image: url('img/flatCrossed.svg');
+}
+
+#noteTesterScore .note.doubleSharp{
+    background-image: url('img/doubleSharp.svg');
+}
+
+#noteTesterScore .note.doubleFlat{
+    background-image: url('img/doubleFlat.svg');
+}
+
+#noteTesterScore .note.C4{
+    top: 60%;
+    margin-left: 46.286%;
+}
+
+#noteTesterScore .note.D4{
+    top: 56.666%;
+}
+
+#noteTesterScore .note.E4{
+    top: 52.666%;
+    margin-left: 46.286%;
+}
+
+#noteTesterScore .note.F4{
+    top: 49.333%;
+}
+
+#noteTesterScore .note.G4{
+    top: 45.23%;
+    margin-left: 46.286%;
+}
+
+#noteTesterScore .note.A4{
+    top: 42%;
+}
+
+#noteTesterScore .note.B4{
+    top: 38.2%;
+    margin-left: 46.286%;
+}
+
+#noteTesterScore .note.C5{
+    top: 34.666%;
+}
+
+#noteTesterScore .note.D5{
+    top: 30.666%;
+    margin-left: 46.286%;
+}
+
+#noteTesterScore .note.E5{
+    top: 27.266%;
+}
+
+#noteTesterScore .note.F5{
+    top: 23.333%;
+    margin-left: 46.286%;
+}
+
+#noteTesterScore .note.G5{
+    top: 20%;
+}
+
+#noteTesterScore .note.A5{
+    top: 16%;
+    margin-left: 46.286%;
+}
+
+#noteTesterScore .note.B5{
+    top: 13.333%;
+}
