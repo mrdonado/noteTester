@@ -1,5 +1,5 @@
 # noteTester
-This is a jQuery component used in Cassette Coach (www.cassettecoach.com).
+This is a jQuery component used in [Cassette Coach](http://ccoach.jdonado.com).
 
 It consists of a responsive piano keyboard and a score that displays the pressed notes.
 
